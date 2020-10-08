@@ -69,33 +69,37 @@ header p{
 .team{
     background-color: white;
     border-radius: 4px;
-    border-top: 3px solid #EA5454;
+    border-top: 5px solid #EA5454;
     grid-column: 2 / 2;
     grid-row: 1 / span 2;
+    box-shadow: 10px 29px 101px -23px rgba(77,79,98,0.40);
 }
 
 .supervisor{
     background-color: white;
     border-radius: 4px;
-    border-top: 3px solid #44D3D2;
+    border-top: 5px solid #44D3D2;
     grid-column: 1 / 1;
     grid-row: 2/ span 2;
+    box-shadow: 10px 29px 101px -23px rgba(77,79,98,0.40);
 }
 
 .karma{
     background-color: white;
     border-radius: 4px;
-    border-top: 3px solid #FCAE4A;
+    border-top: 5px solid #FCAE4A;
     grid-column: 2 / 2;
     grid-row: 3 / span 2;
+    box-shadow: 10px 29px 101px -23px rgba(77,79,98,0.40);
 }
 
 .calculator{
     background-color: white;
     border-radius: 4px;
-    border-top: 3px solid #549EF2;
+    border-top: 5px solid #549EF2;
     grid-column: 3 / 3;
     grid-row: 2 / span 2;
+    box-shadow: 10px 29px 101px -23px rgba(77,79,98,0.40);
 }
 
 /* Intérieur card  */
