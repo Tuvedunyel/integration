@@ -104,6 +104,10 @@ header p{
 
 /* Intérieur card  */
 
+.team, .karma, .calculator, .supervisor{
+    position: relative
+}
+
 .container-card{
     margin: 26px 32px;
 }
@@ -118,4 +122,11 @@ header p{
     font-size: 1.3rem;
     font-weight: 400;
     margin-top: 14px;
+}
+
+.card-img{
+    width: 64px;
+    position: absolute;
+    bottom: 26px;
+    right: 32px;
 }
